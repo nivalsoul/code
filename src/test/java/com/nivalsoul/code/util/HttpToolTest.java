@@ -14,7 +14,7 @@ public class HttpToolTest extends TestCase {
 	}
 
 	public void testPost() {
-		Map<String, String> params = new HashMap<>();
+		Map<String, String> params = new HashMap<String, String>();
 		params.put("opt", "setActivityInfos");
 		String result = HttpTool.post(url, params );
 		System.out.println(result);
