@@ -6,10 +6,10 @@ import java.util.Map;
 import junit.framework.TestCase;
 
 public class HttpToolTest extends TestCase {
-	String url = "http://114.215.239.66:8080/sstcd/mainServlet";
+	String url = "http://36kr.com/api/post?column_id=70&b_id=&per_page=2";
 
 	public void testGet() {
-		String result = HttpTool.get(url+"?opt=setActivityInfos");
+		String result = HttpTool.get(url);
 		System.out.println(result);
 	}
 
