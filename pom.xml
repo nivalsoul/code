@@ -16,11 +16,6 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient</artifactId>
-			<version>4.5.1</version>
-		</dependency>
-		<dependency>
 		    <groupId>org.apache.httpcomponents</groupId>
 		    <artifactId>httpmime</artifactId>
 		    <version>4.5.1</version>
@@ -38,7 +33,7 @@
 	    <dependency>    
 	        <groupId>com.oracle</groupId>    
 	        <artifactId>ojdbc6</artifactId>    
-	        <version>11.2.0</version>
+	        <version>11.2.0.4</version>
 	    </dependency>
 	    <dependency>
 			<groupId>com.google.guava</groupId>
@@ -64,6 +59,12 @@
 		    <groupId>org.apache.kafka</groupId>
 		    <artifactId>kafka_2.11</artifactId>
 		    <version>0.10.1.0</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.xiaoleilu</groupId>
+		    <artifactId>hutool-all</artifactId>
+		    <version>3.1.1</version>
 		</dependency>
 		
 		<!-- log -->
